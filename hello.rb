@@ -7,3 +7,7 @@ end
 get '/bye' do
     "Good bye"
 end
+
+get '/hello/:name' do
+    "Hello #{params['name']} ^^"
+end
